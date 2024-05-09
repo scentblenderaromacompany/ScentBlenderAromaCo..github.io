@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Scent Blender Aroma Company</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cart-info {
+            width: 80%;
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h2, p {
+            margin: 10px 0;
+        }
+        button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+    </header>
+    <main>
+        <div class="cart-info">
+            <h2>How Your Cart Works</h2>
+            <p>Items remain in your cart for 120 minutes to ensure availability. After this period, they may be removed if not purchased.</p>
+            <p>Here are some features to enhance your shopping experience:</p>
+            <ul>
+                <li>Save for Later: Decide what you want now and save other items for future purchase without losing them.</li>
+                <li>Price Alerts: Get notified if the prices of items in your cart change.</li>
+                <li>Easy Checkout: Securely save your payment and shipping options for a faster and smoother checkout experience.</li>
+            </ul>
+            <button onclick="window.location.href='checkout.html';">Proceed to Checkout</button>
+        </div>
+    </main>
+    <footer>
+        <p>Need assistance? Contact us at <a href="mailto:support@scentblenderaroma.com">support@scentblenderaroma.com</a>.</p>
+        <p>&copy; 2024 Scent Blender Aroma Company. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("Cart page loaded. JavaScript is isolated to this page.");
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/* loyalty.css - additional styles specific to the loyalty program page */
+.level {
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 20px;
+    border-left: 5px solid gold; /* Different color for each level: gold, platinum, diamond */
+}
+
+.level h3 {
+    color: #0056b3; /* Theme color for headings */
+}
+
+.level ul {
+    list-style-type: none; /* No bullets for a cleaner look */
+    padding-left: 0;
+}
+
+.level li {
+    padding: 5px 0; /* Spacing between list items */
+}

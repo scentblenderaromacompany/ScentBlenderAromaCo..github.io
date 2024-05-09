@@ -1,0 +1,32 @@
+{
+    "name": "My Awesome App",
+    "short_name": "AwesomeApp",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f5deb3",
+    "description": "An awesome app doing awesome things!",
+    "icons": [
+      {
+        "src": "icons/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icons/icon-256x256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "icons/icon-384x384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+      "src": "icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+      }
+    ],
+    "theme_color": "#b8860b"
+  }
+  

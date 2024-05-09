@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our exclusive range of car fresheners and oil diffusers, perfect for enhancing your driving experience.">
+    <meta name="keywords" content="car fresheners, oil diffusers, air freshener, eco-friendly car care">
+    <title>Scent Blender Aroma Company</title>
+    <link rel="manifest" href="/path/to/manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+   
+        .hamburger {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        .nav-links {
+            display: none;
+            flex-direction: column;
+            background-color: #333;
+            position: absolute;
+            top: 48px;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+        .nav-links a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+        @media (min-width: 768px) {
+            .nav-links {
+                display: flex;
+                position: static;
+                flex-direction: row;
+                justify-content: center;
+            }
+            .nav-links a {
+                padding: 10px 15px;
+            }
+            .hamburger {
+                display: none;
+            }
+        }
+    </style>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products/index.html">Products</a>
+            <a href="Accounts/index.html">Account</a>
+            <a href="Checkout/Cart.html">Cart</a>
+            <a href="Checkout/index.html">Checkout</a>
+            <a href="Checkout/Shipping.html">Shipping Info</a>
+            <a href="Checkout/Payments.html">Payment Options</a>
+            <a href="Checkout/Returns&Refunds.html">Returns & Refunds</a>
+            <a href="Accounts/Loyalty-Program/index.html">Loyalty Program</a>
+            <a href="Contact-Us/index.html">Contact Us</a>
+            <a href="Faq/index.html">FAQ</a>
+            <a href="Blogs/index.html">Blog</a>
+            <a href="Reviews/index.html">Reviews</a>
+            <a href="Accounts/Subscribe.html">Subscribe</a>
+        </nav>
+        <div class="announcement-bar" id="announcement">
+            <div class="message">Welcome! 👋</div>
+            <div class="message">New Products Coming Soon!</div>
+            <div class="message">Holiday Sale Starts Next Week!</div>
+            <div class="message">Sign Up for Our Newsletter!</div>
+            <div class="message">Free Shipping on Orders Over $50!</div>
+            <div class="message">Check Out Our Latest Blog Post!</div>
+        </div>
+    </header>
+    <script>
+        function toggleMenu() {
+            var navLinks = document.querySelector('.nav-links');
+            if (navLinks.style.display === 'block') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+    <div class="feature-item">
+        <img src="icon-natural.svg" alt="100% Natural" class="icon">
+        <h3>100% Natural</h3>
+        <p>Our products are made from all-natural ingredients.</p>
+    </div>
+    
+
+
+   <!-- Features Section -->
+   <section class="features">
+    <div class="feature-item">
+        <img src="icon-natural.svg" alt="100% Natural">
+        <h3>100% Natural</h3>
+        <p>Our products are made from all-natural ingredients.</p>
+    </div>
+    <div class="feature-item">
+        <img src="icon-sustainable.svg" alt="Eco-Friendly">
+        <h3>Eco-Friendly</h3>
+        <p>Committed to sustainability and eco-friendly practices.</p>
+    </div>
+    <div class="feature-item">
+        <img src="icon-longlasting.svg" alt="Long Lasting">
+        <h3>Long Lasting</h3>
+        <p>Enjoy long-lasting freshness in your vehicle.</p>
+    </div>
+</section>
+
+ 
+<section id="specialOffers">
+    <button class="special-offer-btn" onclick="location.href='special-offers.html';">View Special Offers</button>
+      <h2>Our Special Offers</h2>
+         <!-- You can put more things about special offers here -->
+           </section>
+
+
+    
+    <!-- Your main content starts here -->
+    <body>
+         
+
+        <section class="carousel" aria-label="Featured Products">
+            <img src="https://via.placeholder.com/150?text=Product+1" alt="Product 1" lazy-load="true">
+            <img src="https://via.placeholder.com/150?text=Product+2" alt="Product 2" lazy-load="true">
+            <img src="https://via.placeholder.com/150?text=Product+3" alt="Product 3" lazy-load="true">
+        </section>
+        <section class="about-us">
+            <h1>Welcome to Your Online Store</h1>
+            <p>Explore our exclusive range of car fresheners and oil diffusers. Perfect for enhancing your driving experience.</p>
+        </section>
+     
+
+
+        <section class="subscription">
+            <form id="subscriptionForm">
+                <label for="email">Subscribe to our newsletter:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section class="testimonials">
+            <h2>Customer Testimonials</h2>
+            <div class="testimonial">
+                <p>"I love the new car scent! Lasts longer than any I've tried before."</p>
+                <cite>Jane Doe</cite>
+            </div>
+            <div class="testimonial">
+                <p>"The vanilla scent is amazing and not overpowering. Highly recommend!"</p>
+                <cite>John Smith</cite>
+            </div>
+        </section>
+
+   
+        <footer>
+        <p>Connect with us:</p>
+        <a href="https://facebook.com">Facebook</a> |
+        <a href="https://twitter.com">Twitter</a> |
+        <a href="https://instagram.com">Instagram</a>
+        <p>&copy; 2024 Your Car Freshener Store. All rights reserved.</p>
+    </footer>
+        <!-- Your existing sections and footer will follow -->
+    </body>
+</body>
+</html>
